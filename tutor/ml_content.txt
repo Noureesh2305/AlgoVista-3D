@@ -1,0 +1,94 @@
+Supervised Learning involves training a model on labeled data. It includes algorithms like Linear Regression, Logistic Regression, Decision Trees, Random Forests, SVM, Naive Bayes, and KNN.
+
+Unsupervised Learning works on unlabeled data to find hidden patterns. Common algorithms include K-Means Clustering and Principal Component Analysis (PCA).
+
+Reinforcement Learning is based on agents taking actions in an environment to maximize cumulative rewards. Q-Learning is a popular example.
+
+Linear Regression models the relationship between dependent and independent variables by fitting a straight line.
+
+Logistic Regression is used for binary classification. It uses the sigmoid function to model the probability of a binary outcome.
+
+Decision Trees split data into branches based on feature values. They are easy to interpret but prone to overfitting.
+
+Random Forest is an ensemble of decision trees. It reduces overfitting and improves accuracy by averaging multiple trees.
+
+Support Vector Machines (SVM) find the best hyperplane that separates classes with the maximum margin. It works well in high-dimensional spaces.
+
+K-Nearest Neighbors (KNN) is a lazy learning algorithm that classifies a data point based on the majority class among its nearest neighbors.
+
+Naive Bayes is a probabilistic classifier based on Bayes’ theorem. It assumes features are independent and works well with text data.
+
+Principal Component Analysis (PCA) is a dimensionality reduction technique. It transforms features into a new set of uncorrelated components.
+
+K-Means is a clustering algorithm that groups data into K clusters based on similarity and distance from centroids.
+
+Q-Learning is a reinforcement learning algorithm that learns the value of actions in states using a Q-table. It aims to maximize rewards over time.
+
+Overfitting occurs when a model learns noise and details from training data too well and performs poorly on unseen data.
+
+Underfitting happens when a model is too simple to capture the underlying structure of the data.
+
+Cross-validation is a method to evaluate model performance by splitting data into multiple train-test sets to reduce variance in accuracy estimation.
+
+Confusion Matrix is a table used to evaluate classification models. It shows true positives, false positives, true negatives, and false negatives.
+
+Precision is the ratio of true positives to the total predicted positives. It indicates how many selected items are relevant.
+
+Recall is the ratio of true positives to the total actual positives. It indicates how many relevant items were selected.
+
+F1 Score is the harmonic mean of precision and recall. It balances both metrics, especially in imbalanced datasets.
+
+Accuracy is the ratio of correctly predicted observations to the total observations.
+
+Gradient Descent is an optimization algorithm that minimizes the cost function by iteratively updating model weights.
+
+Loss Function is used to measure the difference between predicted and actual values. Common examples are Mean Squared Error and Cross-Entropy Loss.
+
+Feature Scaling standardizes data ranges for features. Techniques include Min-Max Scaling and Standardization.
+
+Outliers are extreme values that differ significantly from other observations and can impact model performance.
+
+Bias is the error due to overly simplistic assumptions in the learning algorithm. Variance is the error due to model sensitivity to small fluctuations in the training set.
+
+Hyperparameters are settings chosen before training a model, such as learning rate, number of neighbors in KNN, or depth of decision trees.
+
+Model Evaluation involves testing model performance using metrics like accuracy, precision, recall, F1 score, and ROC-AUC.
+
+ROC Curve shows the performance of a classification model at all thresholds. AUC (Area Under Curve) measures overall model ability to discriminate classes.
+
+One-Hot Encoding converts categorical variables into binary vectors, making them usable for ML algorithms.
+
+Label Encoding assigns each class a unique integer value, useful for ordinal categorical data.
+
+Ensemble Methods combine predictions from multiple models to improve overall performance. Examples: Bagging, Boosting, and Stacking.
+
+Bagging (Bootstrap Aggregating) trains models on random subsets and averages their predictions. Random Forest uses bagging.
+
+Boosting trains models sequentially, correcting errors from previous models. Popular algorithms include AdaBoost, Gradient Boosting, and XGBoost.
+
+XGBoost is a fast, scalable, and accurate boosting algorithm often used in competitions.
+
+Feature Selection helps in choosing the most relevant features for training, reducing overfitting and improving performance.
+
+Dimensionality Reduction techniques like PCA help simplify models and reduce computation time.
+
+Clustering is the task of grouping similar data points together. It is used in customer segmentation, pattern recognition, etc.
+
+Anomaly Detection identifies rare items or events which differ significantly from the majority of the data.
+
+Regularization techniques like L1 (Lasso) and L2 (Ridge) help prevent overfitting by penalizing large coefficients.
+
+LSTM (Long Short-Term Memory) is a special kind of RNN used in sequence prediction and NLP tasks.
+
+CNN (Convolutional Neural Networks) are used mainly in image classification and computer vision tasks.
+
+Activation Functions add non-linearity to neural networks. Common ones are ReLU, Sigmoid, and Tanh.
+
+Backpropagation is the process used to train neural networks by propagating error backward and updating weights.
+
+Epoch is one complete pass over the entire training dataset.
+
+Batch Size is the number of training samples used in one forward/backward pass.
+
+Learning Rate controls how much the model adjusts weights at each step. Too high leads to divergence; too low leads to slow convergence.
+
