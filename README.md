@@ -1,5 +1,7 @@
 # 🎓 AlgoVista 3D – Study. Simulate. Succeed.
 
+**Last updated:** May 8, 2026
+
 **AlgoVista 3D** is an **interactive learning platform** that helps students and beginners understand **Machine Learning algorithms** through:
 - 📊 **3D Visualizations** (rotate, zoom, and interact with ML concepts)
 - 📝 **Theory explanations + voice-over support**
@@ -15,6 +17,8 @@ This is my **personal project**, built from scratch to make learning ML fun and 
 ---
 
 ## 📂 Project Structure
+
+```text
 AlgoVista-3D/
 │── app.py # Main Streamlit app
 │── requirements.txt # Dependencies
@@ -22,11 +26,12 @@ AlgoVista-3D/
 │── visuals/ # Interactive 3D visualizations
 │── tutor/ # AI tutor (chat + voice guide)
 │── quiz/ # Quiz system
-│── utils/ # Feedback & helper functions
+│── dashboard/ # Progress dashboard
+```
 
 ---
 
-📘 Usage
+## 📘 Usage
 
 - Select a learning type (Supervised, Unsupervised, Reinforcement).
 - Choose an algorithm from the list.
@@ -36,41 +41,39 @@ AlgoVista-3D/
 
 ---
 
-📊 Algorithms / Modules
+## 📊 Algorithms / Modules
 
-🔵 Supervised Learning
-------------------------
-Linear Regression
-Logistic Regression
-KNN (K-Nearest Neighbors)
-Decision Tree
-Random Forest
-Naive Bayes
-SVM (Support Vector Machine)
+### 🔵 Supervised Learning
 
+- Linear Regression
+- Logistic Regression
+- KNN (K-Nearest Neighbors)
+- Decision Tree
+- Random Forest
+- Naive Bayes
+- SVM (Support Vector Machine)
 
-🟢 Unsupervised Learning
---------------------------
-K-Means Clustering
-PCA (Principal Component Analysis)
-Hierarchial Clustering
-DBSCAN
-Autoencoders
-Apriori Algorithm
+### 🟢 Unsupervised Learning
 
+- K-Means Clustering
+- PCA (Principal Component Analysis)
+- Hierarchical Clustering
+- DBSCAN
+- Autoencoders
+- Apriori Algorithm
 
-🔴 Reinforcement Learning
----------------------------
-Q-Learning
-SARSA
-DQN (Deep Q-Network)
-REINFORCE
-Actor-Critic
-DDPG
+### 🔴 Reinforcement Learning
+
+- Q-Learning
+- SARSA
+- DQN (Deep Q-Network)
+- REINFORCE
+- Actor-Critic
+- DDPG
 
 ---
 
-Model Files:
+## Model Files
 
 The large model files used in this project are not included in the repo.  
 You can download them here:
@@ -80,27 +83,22 @@ You can download them here:
 
 ---
 
-Project Goal
+## Project Goal
 
 The goal of AlgoVista 3D is to make Machine Learning education interactive, visual, and beginner-friendly.
 Instead of boring textbook learning, students can see algorithms in action and experiment with them live.
 
 ---
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 
-Scikit-learn -
- for ML algorithms
-
-Streamlit -
- for interactive UI
-
-Plotly -
- for 3D visualizations
+- Scikit-learn - for ML algorithms
+- Streamlit - for interactive UI
+- Plotly - for 3D visualizations
 
  ---
 
- ## Author
+## Author
 
 👤 **Shaik Noureesh**  
 This is an independent/personal project developed by me to explore and demonstrate concepts of Machine Learning and 3D visualization.
